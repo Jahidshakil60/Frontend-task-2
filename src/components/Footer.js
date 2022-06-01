@@ -40,6 +40,7 @@ height: 30vh;
 padding: 2rem 3rem;
 background: #555252;
 color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 .main-container{
     display: flex;
