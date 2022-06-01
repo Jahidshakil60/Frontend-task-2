@@ -36,7 +36,7 @@ function Footer() {
 export default Footer
 
 const FooterStyle= styled.div`
-height: 30vh;
+height: 27vh;
 padding: 2rem 3rem;
 background: #555252;
 color: white;

@@ -93,7 +93,7 @@ const HomeStyle = styled.div`
  color: white;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  margin:1rem 2rem 0 2rem;
- height: 75vh;
+ height: 80vh;
 
  .container{
      display: flex;
