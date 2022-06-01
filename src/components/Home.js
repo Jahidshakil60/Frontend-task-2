@@ -2,6 +2,7 @@ import React from 'react'
 import img5 from '../img/img5.png'
 import img6 from '../img/img6.png'
 import img7 from '../img/img7.png'
+import img9 from '../img/img9.png'
 
 import styled from 'styled-components'
 
@@ -66,7 +67,7 @@ function Home() {
             </div>
 
             <div className="client-container">
-                <img src={img7} alt="" />
+                <img src={img9} alt="" />
                 <div className="text">
                    <h4>Forms</h4>
                    <ul>
