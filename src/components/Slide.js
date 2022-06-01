@@ -76,7 +76,7 @@ export default Slide
 
 
 const SliderStyle = styled.div`
-background: #282828;
+
   .slider {
   width: 90%;
   height: 90vh;

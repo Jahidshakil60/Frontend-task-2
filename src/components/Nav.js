@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import {HashLink as Link} from 'react-router-hash-link'
 // import {Link} from "react-router-dom"
 
 
@@ -8,10 +9,10 @@ function Nav() {
     <StyledNav>
         <h1 className='logo'><a>Stock Exchange</a></h1>
         <ul>
-            <li><a >Home</a></li>
-            <li><a >Products & Serveice</a></li>
-            <li><a>Become a Client</a></li>
-            <li><a>About Us</a></li>
+            <li><Link to = '#home' smooth >Home</Link></li>
+            <li><Link to = '#home' smooth  >Products & Serveice</Link></li>
+            <li><Link to = '#home' smooth >Become a Client</Link></li>
+            <li><Link to = '#home' smooth>About Us</Link></li>
        
         </ul>
          <div className='btn-container'>
@@ -48,7 +49,7 @@ const StyledNav= styled.nav`
   }
   li{
       margin-left: 3rem;
-      font-size: 0.5rem;
+      
       a{
         font-size: 0.8rem;
         cursor: pointer;
